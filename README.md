@@ -34,3 +34,6 @@ To achieve this, we'll need to convert the above steps into a single Pipeline us
 
 Unlike other Pipeline Runners, DirectRunner doesn't need any additional setup, which makes it a good choice for a starter.
 
+##### Running and Testing
+
+Apache Beam will send our task to multiple DirectRunner instances. Consequently, several output files will be generated at the end. 
